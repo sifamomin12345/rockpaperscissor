@@ -1,0 +1,25 @@
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.choice{
+    height: 250px;
+    width: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.choice:hover{
+    opacity: 0.8;
+      background-color: black;
+
+}
+
+.choice img{
+    height: 100%;
+    width: 100%;
+      object-fit: cover;
+    
+}
