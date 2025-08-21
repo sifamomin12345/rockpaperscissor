@@ -10,6 +10,7 @@
     width: 250px;
   border-radius: 50%;
   overflow: hidden;
+  margin-top: 10px;
 }
 .choice:hover{
     opacity: 0.8;
@@ -22,4 +23,26 @@
     width: 100%;
       object-fit: cover;
     
+
+}
+
+.score-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.userscore,.compscore{
+    margin-top: 15px;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(247, 117, 117);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userscore p{
+    align-items: center;
 }
